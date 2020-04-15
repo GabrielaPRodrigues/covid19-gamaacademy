@@ -1,0 +1,125 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    margin-bottom: 30px;
+}
+
+.header{
+    padding: 2px;
+    text-align: center;
+    background-color: #144695;
+}
+
+.header li{
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.header a, p{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.conteudo{
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagemGeral{
+    width: 100%;
+}
+
+.img-notice{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.notice{
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    width: 270px;
+    height: 300px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h3{
+    position: relative;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#minha-img{
+    width: 20%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+h2{
+    text-align: center;
+    color: gray;
+    padding: 2%;
+}
+
+audio{
+    width: 100%;
+}
+
+.sobre h1{
+    margin: 0;
+}
+
+.forms iframe{
+    margin: auto;
+    display: block;
+}
+
+.forms{
+    margin-top: 3%;
+}
+
+.background{
+    background-color: white;
+    padding: 50px;
+    margin: 4% auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.reposition{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+}
