@@ -5,25 +5,30 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .menu{
-    margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .header{
-    padding: 2px;
+    padding: 5px;
     text-align: center;
     background-color: #144695;
 }
 
 .header li{
     display: inline-block;
-    margin: 0 50px;
+    margin: 0 3px;
+    list-style-type: none;
 }
 
 .header a, p{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.1rem;
 }
 .conteudo{
     border-radius: 10px;
@@ -147,4 +152,30 @@ audio{
 
 .sociais img{
     width: 30px;
+}
+
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover{
+    text-decoration: underline;
+	}
+a:active {
+    text-decoration: none
+    }
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+    .background {
+        width: 80%;
+        display: block;
+    }
+    .header p{
+        text-align: -webkit-center;
+    }
 }
