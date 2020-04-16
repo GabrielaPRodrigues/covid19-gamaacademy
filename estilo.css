@@ -78,12 +78,8 @@ a{
 }
 
 #minha-img{
-    width: 20%;
+    width: 100%;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
 }
 
 h2{
@@ -100,6 +96,11 @@ audio{
     margin: 0;
 }
 
+.sobre p{
+    font-size: 15px;
+    color: gray;
+}
+
 .forms iframe{
     margin: auto;
     display: block;
@@ -110,11 +111,13 @@ audio{
 }
 
 .background{
+    display: flex;
     background-color: white;
-    padding: 50px;
+    padding: 30px;
     margin: 4% auto;
-    width: 50%;
     border-radius: 10px;
+    text-align: justify;
+    width: 700px;
 }
 
 .reposition{
@@ -122,4 +125,26 @@ audio{
     bottom: 0;
     width: 100%;
     padding: 0;
+}
+
+.figure{
+    text-align: center;
+}
+
+.figure figcaption{
+    margin-top: 10px;
+}
+
+.sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.sociais a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sociais img{
+    width: 30px;
 }
